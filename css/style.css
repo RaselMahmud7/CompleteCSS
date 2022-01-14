@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: darkorange;
+}
+.nav-item{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: whitesmoke;
+    font-family: 'Exo', sans-serif;
+    padding: 10px 15px;
+    border: none;
+}
+
+.fontawesome{
+    margin: 5px;
+}
+
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    font-family: exo;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 35%;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 5px 5px 45px lightgray;
+    border-radius: 5px;
+    
+ 
+}
+.form-login>h2{
+    color: royalblue;
+}
+.form-login input,button, a{
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    font-family: exo;
+}
+#btn-login{
+    padding-left: 0;
+    background-color: rgb(18, 165, 13);
+    font-weight: 900;
+    color: whitesmoke;
+    border: none;
+    
+}
+#pass-reset{
+    border: none;
+    text-decoration: none;
+}
+/* Calender Start */
+.calender-section{
+    display: flex;
+    flex-direction: column;
+    justify-content:  flex-start;
+    align-items: center;
+    margin: 2% 20%;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-family: exo;
+    box-shadow: 5px 5px 45px lightgray;
+    height: 650px;
+    
+}
+.calender-month>h2{
+    font-size: 60px;
+    color: rgb(2, 70, 13);
+}
+.year{
+    color: red;
+}
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    column-gap: 10px;
+    row-gap: 20px;
+    height: 400px;
+   
+    padding: 10px 30px;
+    
+}
+.date, .day {
+    background-color:   lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black ;
+    font-size: 1.3em;
+    border-radius: 15px;
+    padding: 10px ;
+}
+.other-months{
+    background:gainsboro;
+    color: gray;
+}
+.day{
+    background-color: rgba(39, 153, 100, 0.966);
+    color: aliceblue;
+}
+#today{
+    background-color:  rgba(39, 153, 100, 0.966);
+}
